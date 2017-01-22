@@ -1,0 +1,6 @@
+echo "# NodeJS_BuildingWebApps_Pluralsight" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Apollo013/NodeJS_BuildingWebApps_Pluralsight.git
+git push -u origin master

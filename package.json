@@ -1,0 +1,11 @@
+{
+  "name": "nodejs_webapps_pluralsight",
+  "version": "1.0.0",
+  "description": "Coursework for building web apps with nodejs on pluralsight",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul James Millar",
+  "license": "ISC"
+}
