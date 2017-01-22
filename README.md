@@ -15,3 +15,4 @@ Developed using Visual Studio Code
 |Feature|Description|
 |-------|-----------|
 |http|Demonstrates creating a web server using http|
+|nodemon|Checks for changes in server config and restarts the server|
