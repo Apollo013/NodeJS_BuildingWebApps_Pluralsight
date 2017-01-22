@@ -1,5 +1,0 @@
-npm install -g nodemon 
-npm install -g node-inspector
-
-node server --debug
-node-inspector

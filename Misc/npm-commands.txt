@@ -1,0 +1,5 @@
+npm install -g nodemon 
+npm install -g node-debug
+
+nodemon server
+node-debug server
