@@ -1,3 +1,4 @@
+var logger = require('./logger');
 
 function Point(x, y){
     this.x = x; 
@@ -5,7 +6,7 @@ function Point(x, y){
 }
 
 Point.prototype.print = function(){
-    console.log('X: ' + this.x + ' - Y: ' + this.y);
+    logger.info('X: ' + this.x + ' - Y: ' + this.y);
 }
 
 module.exports = Point;
