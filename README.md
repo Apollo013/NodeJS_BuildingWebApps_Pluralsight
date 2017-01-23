@@ -11,6 +11,16 @@ Developed using Visual Studio Code
 
 ---
 
+###Node modules
+|Module|
+|------|
+|http|
+|path|
+|fs|
+|CommonJS|
+
+---
+
 ###Features
 |Feature|Description|
 |-------|-----------|
