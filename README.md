@@ -1,4 +1,4 @@
-# [NodeJS_BuildingWebApps_Pluralsight](https://www.pluralsight.com/courses/building-web-apps-nodejs)
+# [Building Web Apps With Node.js - Pluralsight](https://www.pluralsight.com/courses/building-web-apps-nodejs)
 
 Developed using Visual Studio Code
 
