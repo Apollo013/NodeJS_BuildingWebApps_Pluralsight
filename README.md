@@ -11,8 +11,8 @@ Developed using Visual Studio Code
 
 ---
 
-###Node modules
-|Module|Description|
+###01. Node Basics
+|Node Module|Description|
 |-------|-----------|
 |http|Demonstrates creating a web server using http|
 |path|Used for handling and transforming file paths |
