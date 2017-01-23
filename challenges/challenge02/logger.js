@@ -1,1 +1,3 @@
-ECHO is on.
+exports.info = function(msg){
+    console.log(new Date() + ': ' + msg);
+};
