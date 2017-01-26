@@ -7,8 +7,9 @@ Developed using Visual Studio Code
 ###Frameworks
 |Framework|
 |---------|
-|NodeJS|
-|underscore.js|
+|Node.JS|
+|Underscore.JS|
+|Express.JS|
 
 ---
 
@@ -17,7 +18,12 @@ Developed using Visual Studio Code
 |-------|-----------|
 |http|Demonstrates creating a web server using http|
 |path|Used for handling and transforming file paths |
-|fs|Reading json files|
+|fs|files system plugin|
 |CommonJS|Creating, exporting & importing custom modules|
-|nodemon|Checks for changes in server config and restarts the server|
+|nodemon|Continuously watches for changes in server config and restarts the server|
 
+
+###02. Routing and Templating With Express
+|Feature|Description|
+|-------|-----------|
+|Express.JS||
