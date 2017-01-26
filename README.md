@@ -14,16 +14,10 @@ Developed using Visual Studio Code
 ---
 
 ###01. Node Basics
-|Feature|Description|
-|-------|-----------|
-|http|Demonstrates creating a web server using http|
-|path|Used for handling and transforming file paths |
-|fs|files system plugin|
-|CommonJS|Creating, exporting & importing custom modules|
-|nodemon|Continuously watches for changes in server config and restarts the server|
-
-
-###02. Routing and Templating With Express
-|Feature|Description|
-|-------|-----------|
-|Express.JS||
+|Module Number|Name|Description|
+|-------------|----|-----------|
+|01|Node.js Basics|Demonstrates creating a web server using http|
+|02|Routing and templating|Demonstrates Express.js, creating custom middleware, using 'path' for handling and transforming file paths, 'fs' plugin,  'ejs' briefly covered |
+|03|Persistence|
+|04|Real-time Applications with socket.io||
+|05|Sharing Code With Browserfy||
