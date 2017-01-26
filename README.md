@@ -13,7 +13,7 @@ Developed using Visual Studio Code
 
 ---
 
-###01. Node Basics
+###Modules
 |Module Number|Name|Description|
 |-------------|----|-----------|
 |01|Node.js Basics|Demonstrates creating a web server using http|
