@@ -16,8 +16,8 @@ Developed using Visual Studio Code
 ###Modules
 |Module Number|Name|Description|
 |-------------|----|-----------|
-|01|Node.js Basics|Demonstrates creating a web server using http|
+|01|Node.js Basics|Demonstrates creating a basic web server using http, custom modules|
 |02|Routing and templating|Demonstrates Express.js, creating custom middleware, using 'path' for handling and transforming file paths, 'fs' plugin,  'ejs' briefly covered |
-|03|Persistence|
+|03|Persistence|Covers mongoose|
 |04|Real-time Applications with socket.io||
 |05|Sharing Code With Browserfy||

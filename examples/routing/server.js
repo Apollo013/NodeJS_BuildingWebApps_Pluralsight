@@ -12,11 +12,14 @@ function authUser(request, response, next){
     next();
 }
 
-app.use(authUser);
-
-app.get('/', function(request, response){
+function handler(request, response){
     response.send({foo: 'bar'});
-});
+};
+
+//app.use(authUser);
+app.get('/', authUser, handler);
+app.post('/', handler);
+
 
 app.post('/dostuff', function(request, response){
     var param = request.query.foo;
