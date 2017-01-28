@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Users</title>
+    <link rel="stylesheet" type="text/css" href="/public/css/bootstrap.css"/>
+</head>
+<body>
+    <div class="container" style="margin-top:10px;">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <a class="brand" href="#">Users</a>
+                <ul class="nav">
+                    <li class="active"><a href="/">All Users</a></li>
+                    <li><a href="users/new">Create User</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span12">
+                <% users.forEach(function(user) { %>
+                    <div>
+                        <h1><%= user.name %></h1>
+                    </div>
+                <% }) %>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

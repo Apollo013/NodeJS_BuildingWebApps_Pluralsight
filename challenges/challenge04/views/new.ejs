@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Little Bloggie</title>
+    <link rel="stylesheet" type="text/css" href="/public/css/bootstrap.css"/>
+</head>
+<body>
+    <div class="container" style="margin-top:10px;">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <a class="brand" href="/">New User</a>
+                <ul class="nav">
+                    <li><a href="/users">All Users</a></li>
+                    <li class="active"><a href="/new">Create User</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span12">
+                <form action="/users/create" method="POST">
+                    <label>Post Title</label>
+                    <input type="text" name="name" placeholder="Type a name..."/>
+                    <p>
+                        <button type="submit" class="btn">Submit</button>
+                    </p>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
