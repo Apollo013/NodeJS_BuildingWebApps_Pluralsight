@@ -12,6 +12,7 @@ Developed using Visual Studio Code
 |Express.JS|
 |MongoDB|
 |Mongoose.js|
+|Socket.io|
 
 ---
 
@@ -19,7 +20,7 @@ Developed using Visual Studio Code
 |Module Number|Name|Description|
 |-------------|----|-----------|
 |01|Node.js Basics|Demonstrates creating a basic web server using http, custom modules|
-|02|Routing and templating|Demonstrates Express.js, creating custom middleware, using 'path' for handling and transforming file paths, 'fs' & 'ejs' view engine |
-|03|Persistence|Implemented with mongoose.js|
+|02|Routing and templating|Demonstrates routing with Express.js, creating custom middleware, using 'path' for handling and transforming file paths, 'fs' for file system activities & the 'ejs' view engine |
+|03|Persistence|Implemented with MongoDB & Mongoose.js|
 |04|Real-time Applications with socket.io||
 |05|Sharing Code With Browserfy||
