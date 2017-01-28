@@ -1,15 +1,13 @@
- @echo off
-if "%~1"=="" (
-    echo **** Please specify commit comment ****
-) else (  
-    @echo on
-
-    rem commiting %1
+@ECHO off
+if "%~1" == "" (
+    echo **** PLEASE SPECIFY A COMMENT FOR THE COMMIT ****
+) else (
+    echo **** PREPARING COMMIT ****
     git add --all
-
     git commit -m %1
-    rem commited %1
 
+    echo **** COMMITTING ****
     git push -u origin master
-    rem pushed %1
+
+    echo **** COMMIT DONE !!!! ****
 )

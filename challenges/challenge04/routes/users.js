@@ -3,9 +3,6 @@ var router = express.Router();
 var mongoose = require('mongoose');
 var path = require('path');
 var User = require(path.join('../', 'models', 'user-model.js'))
-//var Post = require('./Post')
-
-//var users = new Users();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
